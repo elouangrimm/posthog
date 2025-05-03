@@ -5,6 +5,10 @@
       "destination": "https://us.i.posthog.com/e/:path"
     },
     {
+      "source": "/i/:path(.*)",
+      "destination": "https://us.i.posthog.com/i/:path"
+    },
+    {
       "source": "/static/:path(.*)",
       "destination": "https://us.i.posthog.com/static/:path"
     },
